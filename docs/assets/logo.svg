@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Bomberman</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#1f2340"/>
+      <stop offset="1" stop-color="#0b0d1a"/>
+    </radialGradient>
+    <linearGradient id="fuse" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f87171"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <clipPath id="disc"><circle cx="80" cy="80" r="74"/></clipPath>
+  </defs>
+  <circle cx="80" cy="80" r="74" fill="url(#bg)"/>
+  <g clip-path="url(#disc)" fill="none" stroke="#f87171" stroke-opacity="0.16" stroke-width="1.5">
+    <path d="M6 44 H154 M6 80 H154 M6 116 H154"/>
+    <path d="M44 6 V154 M80 6 V154 M116 6 V154"/>
+  </g>
+  <g clip-path="url(#disc)" fill="#f87171" fill-opacity="0.14">
+    <rect x="44" y="44" width="36" height="36"/>
+    <rect x="80" y="80" width="36" height="36"/>
+  </g>
+  <circle cx="74" cy="94" r="28" fill="#f87171" fill-opacity="0.12" stroke="#f8fafc" stroke-width="3"/>
+  <path d="M60 82 A18 18 0 0 1 72 72" fill="none" stroke="#f8fafc" stroke-width="3" stroke-linecap="round"/>
+  <g fill="none" stroke="#f8fafc" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M86 64 L98 52"/>
+    <rect x="84" y="60" width="12" height="10" rx="2" transform="rotate(-45 90 65)"/>
+  </g>
+  <path d="M98 52 C104 46 104 38 112 34" fill="none" stroke="url(#fuse)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M112 34 L115 26 L118 33 L126 32 L120 37 L124 44 L117 40 L112 46 L113 38 L106 36 Z" fill="url(#fuse)"/>
+  <circle cx="80" cy="80" r="74" fill="none" stroke="#f87171" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
